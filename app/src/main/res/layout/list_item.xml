@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/list_item_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/place_short_description_textview"
+        style="@style/TextViewStyle"
+        android:layout_alignBottom="@id/list_item_background"
+        android:paddingBottom="16dp"
+        android:paddingTop="8dp"
+        tools:text="Church"/>
+
+    <TextView
+        android:id="@+id/place_name_textview"
+        style="@style/TextViewStyle"
+        android:layout_above="@id/place_short_description_textview"
+        tools:text="Basilica of St Stephen"/>
+
+</RelativeLayout>

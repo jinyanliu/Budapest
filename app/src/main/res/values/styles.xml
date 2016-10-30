@@ -26,4 +26,14 @@
         <item name="android:textColor">#A8A19E</item>
     </style>
 
+    <!-- Style for 2 textviews in list_item layout resource file -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
 </resources>
