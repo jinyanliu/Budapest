@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Budapest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category name for places for see [CHAR LIMIT=20] -->
+    <string name="category_see">See</string>
+
+    <!-- Category name for places for eat [CHAR LIMIT=20] -->
+    <string name="category_eat">Eat</string>
+
+    <!-- Category name for places for shop [CHAR LIMIT=20] -->
+    <string name="category_shop">Shop</string>
+
+    <!-- Category name for places for play [CHAR LIMIT=20] -->
+    <string name="category_play">Play</string>
+
 </resources>
