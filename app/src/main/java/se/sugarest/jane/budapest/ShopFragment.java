@@ -26,8 +26,16 @@ public class ShopFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-
-        places.add(new Place("Margaret Island","island","www.iland", 0));
+        places.add(new Place("Arena Plaza","shopping plaza","http://www.arenaplaza.hu/en/", 0));
+        places.add(new Place("Váci Street","tourist central","https://en.wikipedia.org/wiki/V%C3%A1ci_Street", 0));
+        places.add(new Place("Andrássy út","shopping street","https://en.wikipedia.org/wiki/Andr%C3%A1ssy_%C3%BAt", 0));
+        places.add(new Place("Hecserli","food","http://www.hecserli.hu/", 0));
+        places.add(new Place("Herend Porcelain Manufactory","porcelain","https://en.wikipedia.org/wiki/Herend_Porcelain_Manufactoryh", 0));
+        places.add(new Place("Memories of Hungary","arts & crafts","http://memoriesofhungary.hu/en/", 0));
+        places.add(new Place("Rózsavölgyi Csokoládé","chocolate","http://www.rozsavolgyi.com/en/index.php", 0));
+        places.add(new Place("Vass Shoes","shoes","http://www.vass-shoes.com/", 0));
+        places.add(new Place("Bortársaság","wine","http://www.bortarsasag.hu/en/", 0));
+        places.add(new Place("BÁV ","antiques","http://www.bav.hu/en/", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
