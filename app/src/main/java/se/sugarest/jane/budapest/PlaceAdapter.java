@@ -2,6 +2,7 @@ package se.sugarest.jane.budapest;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,13 +20,16 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     private static final String LOG_TAG = PlaceAdapter.class.getSimpleName();
 
+    //Resource ID for the background color for this list of places
+    private int mColorResourceId;
+
     /**
      * This is my own constructor (it doesn't mirror a superclass constructor).
      * The context is used to inflate the layout file, and the list is the data we want to populate into the lists.
      * @param context The current context. Used to inflate the layout file.
      * @param place A list of place objects to display in a list.
      */
-    public PlaceAdapter(Activity context, ArrayList<Place> place){
+    public PlaceAdapter(Activity context, ArrayList<Place> place, int colorResourceId){
 
         /**
          * Here, I initialize the ArrayAdapter's internal storage for the context and the list.
@@ -34,6 +38,7 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
          *  Here, I used 0.
          */
         super(context,0,place);
+        mColorResourceId = colorResourceId;
     }
 
     /**
@@ -84,6 +89,13 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         // Get the image resource ID from the current Place object and set the image to backgroundView
         backgroundView.setImageResource(currentPlace.getImageResourceId());
+
+        //Set the theme color for the list item
+        View textContainer = listItemView.findViewById(R.id.text_container);
+        //Find the color that the resource ID maps to
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        //Set the background color of the text container View
+        textContainer.setBackgroundColor(color);
 
 
         return listItemView;

@@ -26,14 +26,14 @@ public class SeeFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Margaret Island","island","www.iland", R.mipmap.ic_launcher));
-        places.add(new Place("Margaret Island","island","www.iland", R.mipmap.ic_launcher));
+        places.add(new Place("Margaret Island","island","www.iland", 0));
+        places.add(new Place("Margaret Island","island","www.iland", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
          * The adapter knows how to create list items for each item in the list.
          */
-        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places, R.color.category_see);
 
         /**
          * Find the ListView object in the view hierarchy of the Activity.
