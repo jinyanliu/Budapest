@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/see_margaret_island"/>
 
     <TextView
         android:id="@+id/website_textview"

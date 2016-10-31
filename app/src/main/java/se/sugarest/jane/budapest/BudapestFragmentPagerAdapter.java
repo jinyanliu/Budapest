@@ -33,13 +33,13 @@ public class BudapestFragmentPagerAdapter extends android.support.v4.app.Fragmen
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new EatFragment();
-        } else if (position == 1) {
-            return new PlayFragment();
-        } else if (position == 2) {
             return new SeeFragment();
-        } else
+        } else if (position == 1) {
+            return new EatFragment();
+        } else if (position == 2) {
             return new ShopFragment();
+        } else
+            return new PlayFragment();
     }
 
     /**
