@@ -26,11 +26,8 @@ public class SeeFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Margaret Island","island","www.iland", R.drawable.see_margaret_island));
-        places.add(new Place("Margaret Island","island","www.iland", R.drawable.see_margaret_island));
-        places.add(new Place("Margaret Island","island","www.iland", R.drawable.see_margaret_island));
-        places.add(new Place("Margaret Island","island","www.iland", R.drawable.see_margaret_island));
-        places.add(new Place("Margaret Island","island","www.iland", R.drawable.see_margaret_island));
+        places.add(new Place("Margaret Island","island","www.iland", R.mipmap.ic_launcher));
+        places.add(new Place("Margaret Island","island","www.iland", R.mipmap.ic_launcher));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.

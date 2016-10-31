@@ -9,26 +9,22 @@
         android:id="@+id/list_item_background"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
-        android:scaleType="centerCrop"
-        android:src="@drawable/see_margaret_island"/>
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/website_textview"
         style="@style/TextViewStyle"
         android:layout_alignBottom="@id/list_item_background"
-        android:paddingBottom="16dp"
-        tools:text="www.basilica"/>
+        android:paddingBottom="16dp"/>
 
     <TextView
         android:id="@+id/place_short_description_textview"
         style="@style/TextViewStyle"
-        android:layout_above="@id/website_textview"
-        tools:text="Church"/>
+        android:layout_above="@id/website_textview"/>
 
     <TextView
         android:id="@+id/place_name_textview"
         style="@style/TextViewStyle"
-        android:layout_above="@id/place_short_description_textview"
-        tools:text="Basilica of St Stephen"/>
+        android:layout_above="@id/place_short_description_textview"/>
 
 </RelativeLayout>
