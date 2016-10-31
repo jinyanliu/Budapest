@@ -26,8 +26,16 @@ public class PlayFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Margaret Island","island","www.iland", 0));
-        places.add(new Place("Margaret Island","island","www.iland", 0));
+        places.add(new Place("Magnolia Day Spa","day spa","http://www.magnoliadayspa.hu/", 0));
+        places.add(new Place("Mandala Day Spa","day spa","http://www.en.mandaladayspa.hu/", 0));
+        places.add(new Place("Széchenyi thermal bath","bath","http://www.szechenyibath.hu/", 0));
+        places.add(new Place("Gellért Baths","bath","http://www.gellertfurdo.hu/", 0));
+        places.add(new Place("OXYGEN Wellness","gym & bath","http://www.oxygenwellness.hu/", 0));
+        places.add(new Place("Buda Hills","hill","https://en.wikipedia.org/wiki/Buda_Hills", 0));
+        places.add(new Place("Akvárium Klub","live music","http://akvariumklub.hu/", 0));
+        places.add(new Place("Budapest Operetta-theater","opera","http://www.operett.hu/operett.php", 0));
+        places.add(new Place("Budapest Bábszínház","theatre","http://www.budapest-babszinhaz.hu/", 0));
+        places.add(new Place("Ladó Café","live music & dance","http://ladocafe.hu/?lang=en", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
