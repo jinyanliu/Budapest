@@ -13,11 +13,16 @@
         android:src="@mipmap/ic_launcher"/>
 
     <TextView
-        android:id="@+id/place_short_description_textview"
+        android:id="@+id/website_textview"
         style="@style/TextViewStyle"
         android:layout_alignBottom="@id/list_item_background"
         android:paddingBottom="16dp"
-        android:paddingTop="8dp"
+        tools:text="www.basilica"/>
+
+    <TextView
+        android:id="@+id/place_short_description_textview"
+        style="@style/TextViewStyle"
+        android:layout_above="@id/website_textview"
         tools:text="Church"/>
 
     <TextView
