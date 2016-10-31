@@ -26,9 +26,17 @@ public class EatFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Comme Chez Soi Étterem","european","https://www.facebook.com/pages/Comme-Chez-Soi-%C3%89tterem/221928264485677", 0));
-        places.add(new Place("Vintage Garden","Hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
-        places.add(new Place("Vintage Garden","Hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
+
+        places.add(new Place("Comme Chez Soi","european","https://www.facebook.com/pages/Comme-Chez-Soi-%C3%89tterem/221928264485677", 0));
+        places.add(new Place("Meat Boutique","international","http://meatboutique.hu/menu.html", 0));
+        places.add(new Place("Kiosk","european","http://kiosk-budapest.com/", 0));
+        places.add(new Place("Vintage Garden","hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
+        places.add(new Place("Pastrami","international","http://pastrami.hu/#", 0));
+        places.add(new Place("Tuning Bar & Burger","international","http://www.tuningburgerbudapest.hu/etlap-menu/", 0));
+        places.add(new Place("Terminal","international","http://terminalrestaurant.hu/en/", 0));
+        places.add(new Place("Amber's","bakery","https://ambers.hu/", 0));
+        places.add(new Place("Fruccola","break","http://fruccola.hu/english.html", 0));
+        places.add(new Place("Paprika Vendéglő","european","http://www.paprikavendeglo.hu/angol/index.html", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
