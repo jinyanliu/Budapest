@@ -26,8 +26,9 @@ public class EatFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Margaret Island","island","www.iland", 0));
-        places.add(new Place("Margaret Island","island","www.iland", 0));
+        places.add(new Place("Comme Chez Soi Étterem","european","https://www.facebook.com/pages/Comme-Chez-Soi-%C3%89tterem/221928264485677", 0));
+        places.add(new Place("Vintage Garden","Hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
+        places.add(new Place("Vintage Garden","Hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.

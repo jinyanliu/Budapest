@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#000000</color>
 
     <!-- Background color for the see category -->
-    <color name="category_see">#F8BBD0</color>
+    <color name="category_see">#C8E6C9</color>
 
     <!-- Background color for the eat eat category -->
     <color name="category_eat">#FFE0B2</color>

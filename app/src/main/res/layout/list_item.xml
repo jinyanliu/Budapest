@@ -16,16 +16,22 @@
         android:id="@+id/website_textview"
         style="@style/TextViewStyle"
         android:layout_alignBottom="@id/list_item_background"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="16dp"
+        android:autoLink="web"
+        android:textColorLink="@android:color/black"
+        android:textSize="12sp"/>
 
     <TextView
         android:id="@+id/place_short_description_textview"
         style="@style/TextViewStyle"
-        android:layout_above="@id/website_textview"/>
+        android:layout_above="@id/website_textview"
+        android:textSize="16sp"
+        android:textAllCaps="true"/>
 
     <TextView
         android:id="@+id/place_name_textview"
         style="@style/TextViewStyle"
-        android:layout_above="@id/place_short_description_textview"/>
+        android:layout_above="@id/place_short_description_textview"
+        android:textSize="16sp"/>
 
 </RelativeLayout>

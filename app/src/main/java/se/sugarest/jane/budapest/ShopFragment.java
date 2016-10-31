@@ -26,7 +26,7 @@ public class ShopFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Margaret Island","island","www.iland", 0));
+
         places.add(new Place("Margaret Island","island","www.iland", 0));
 
         /**
