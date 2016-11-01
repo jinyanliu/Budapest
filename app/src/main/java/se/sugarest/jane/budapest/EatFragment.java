@@ -26,17 +26,16 @@ public class EatFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-
         places.add(new Place("Comme Chez Soi","A romantic, candlelit dinner in a true small Mediterranean Restaurant!","http://www.commechezsoi.hu/", R.drawable.eat_comme_chez_soi));
         places.add(new Place("Meat Boutique (Dec 24 19:00)","Sitting at the foot of Castle Hill, the Chain Bridge Buda side, with view of the Danube flowing.","http://meatboutique.hu/", R.drawable.eat_meat_boutique));
         places.add(new Place("Kiosk (Dec 27 19:00)","A meeting point where you will find the perfect mood adjusted for every time of the day.","http://kiosk-budapest.com/", R.drawable.eat_kiosk));
-        places.add(new Place("Vintage Garden","Hungarian Restaurant","https://www.facebook.com/vintagegardenbudapest/", R.drawable.eat_vintage_garden));
-        places.add(new Place("Pastrami","Because you need a place where you can at last taste New York’s most popular sandwiches.","http://pastrami.hu/", R.drawable.eat_pastrami));
         places.add(new Place("Tuning Bar & Burger","Bar & Grill · Burger Restaurant","http://www.tuningburgerbudapest.hu/", R.drawable.eat_tunning_bar_burger));
         places.add(new Place("Terminal","Situated in what was once a bus station, where fusion cuisine await gastronomic adventurers.","http://terminalrestaurant.hu/", R.drawable.eat_terminal));
+        places.add(new Place("Vintage Garden","Hungarian Restaurant","https://www.facebook.com/vintagegardenbudapest/", R.drawable.eat_vintage_garden));
+        places.add(new Place("Pastrami","Because you need a place where you can at last taste New York’s most popular sandwiches.","http://pastrami.hu/", R.drawable.eat_pastrami));
+        places.add(new Place("Paprika Vendéglő","Hungarian Restaurant","http://www.paprikavendeglo.hu/", R.drawable.eat_paprika_vendeglo));
         places.add(new Place("Amber's","French Bakery & Cafe","https://ambers.hu/", R.drawable.eat_ambers));
         places.add(new Place("Fruccola","Nice to sweet you.","http://fruccola.hu/", R.drawable.eat_fruccola));
-        places.add(new Place("Paprika Vendéglő","european","http://www.paprikavendeglo.hu/angol/index.html", 0));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
