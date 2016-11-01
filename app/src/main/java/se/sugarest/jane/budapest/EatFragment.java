@@ -28,7 +28,7 @@ public class EatFragment extends Fragment {
 
 
         places.add(new Place("Comme Chez Soi","A romantic, candlelit dinner in a true small Mediterranean Restaurant!","http://www.commechezsoi.hu/", R.drawable.eat_comme_chez_soi));
-        places.add(new Place("Meat Boutique","international","http://meatboutique.hu/menu.html", 0));
+        places.add(new Place("Meat Boutique","Sitting at the foot of Castle Hill, the Chain Bridge Buda side, with view of the Danube flowing.","http://meatboutique.hu/", R.drawable.eat_meat_boutique));
         places.add(new Place("Kiosk","european","http://kiosk-budapest.com/", 0));
         places.add(new Place("Vintage Garden","hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
         places.add(new Place("Pastrami","international","http://pastrami.hu/#", 0));
