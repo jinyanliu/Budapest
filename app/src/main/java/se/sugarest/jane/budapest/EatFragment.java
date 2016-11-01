@@ -34,7 +34,7 @@ public class EatFragment extends Fragment {
         places.add(new Place("Pastrami","Because you need a place where you can at last taste New York’s most popular sandwiches.","http://pastrami.hu/", R.drawable.eat_pastrami));
         places.add(new Place("Tuning Bar & Burger","Bar & Grill · Burger Restaurant","http://www.tuningburgerbudapest.hu/", R.drawable.eat_tunning_bar_burger));
         places.add(new Place("Terminal","Situated in what was once a bus station, where fusion cuisine await gastronomic adventurers.","http://terminalrestaurant.hu/", R.drawable.eat_terminal));
-        places.add(new Place("Amber's","bakery","https://ambers.hu/", 0));
+        places.add(new Place("Amber's","French Bakery & Cafe","https://ambers.hu/", R.drawable.eat_ambers));
         places.add(new Place("Fruccola","break","http://fruccola.hu/english.html", 0));
         places.add(new Place("Paprika Vendéglő","european","http://www.paprikavendeglo.hu/angol/index.html", 0));
 
