@@ -32,8 +32,8 @@ public class EatFragment extends Fragment {
         places.add(new Place("Kiosk (Dec 27 19:00)","A meeting point where you will find the perfect mood adjusted for every time of the day.","http://kiosk-budapest.com/", R.drawable.eat_kiosk));
         places.add(new Place("Vintage Garden","Hungarian Restaurant","https://www.facebook.com/vintagegardenbudapest/", R.drawable.eat_vintage_garden));
         places.add(new Place("Pastrami","Because you need a place where you can at last taste New York’s most popular sandwiches.","http://pastrami.hu/", R.drawable.eat_pastrami));
-        places.add(new Place("Tuning Bar & Burger","international","http://www.tuningburgerbudapest.hu/etlap-menu/", 0));
-        places.add(new Place("Terminal","international","http://terminalrestaurant.hu/en/", 0));
+        places.add(new Place("Tuning Bar & Burger","Bar & Grill · Burger Restaurant","http://www.tuningburgerbudapest.hu/", R.drawable.eat_tunning_bar_burger));
+        places.add(new Place("Terminal","Situated in what was once a bus station, where fusion cuisine await gastronomic adventurers.","http://terminalrestaurant.hu/", R.drawable.eat_terminal));
         places.add(new Place("Amber's","bakery","https://ambers.hu/", 0));
         places.add(new Place("Fruccola","break","http://fruccola.hu/english.html", 0));
         places.add(new Place("Paprika Vendéglő","european","http://www.paprikavendeglo.hu/angol/index.html", 0));
