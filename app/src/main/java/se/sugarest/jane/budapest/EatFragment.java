@@ -27,7 +27,7 @@ public class EatFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<Place>();
 
 
-        places.add(new Place("Comme Chez Soi","european","https://www.facebook.com/pages/Comme-Chez-Soi-%C3%89tterem/221928264485677", 0));
+        places.add(new Place("Comme Chez Soi","A romantic, candlelit dinner in a true small Mediterranean Restaurant!","http://www.commechezsoi.hu/", R.drawable.eat_comme_chez_soi));
         places.add(new Place("Meat Boutique","international","http://meatboutique.hu/menu.html", 0));
         places.add(new Place("Kiosk","european","http://kiosk-budapest.com/", 0));
         places.add(new Place("Vintage Garden","hungarian","https://www.facebook.com/vintagegardenbudapest/about/", 0));
