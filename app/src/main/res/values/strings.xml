@@ -16,8 +16,29 @@
     <!-- Category name for places for play [CHAR LIMIT=20] -->
     <string name="category_play">Play</string>
 
-    <!-- Short Description for places for see -->
-    <string name="see_sd_chain_bridge">Spans the River Danube between Buda and Pest, the western and eastern sides.y</string>
+    <!-- Name for places for See -->
+    <string name="see_name_chain_bridge">Chain Bridge</string>
+    <string name="see_name_elisabeth_bridge">Elisabeth Bridge</string>
+    <string name="see_name_ststephens_basilica">St. Stephen\'s Basilica</string>
+    <string name="see_name_hungarian_parliament_building">Hungarian Parliament Building</string>
+    <string name="see_name_gellert_hill">Gellért Hill</string>
+    <string name="see_name_varhergy">Várhegy</string>
+    <string name="see_name_buda_castle">Buda Castle</string>
+    <string name="see_name_budapest_history_museum">Budapest History Museum</string>
+    <string name="see_name_hungarian_national_gallery">Hungarian National Gallery</string>
+    <string name="see_name_great_market_hall">Great Market Hall</string>
+    <string name="see_name_budapest_zoo_and_botanical_garden">Budapest Zoo and Botanical Garden</string>
+    <string name="see_name_national_szechenyi_library">National Széchényi Library</string>
+    <string name="see_name_museums_of_fine_arts">Museum of Fine Arts</string>
+    <string name="see_name_heroes_square">Heroes\' Square</string>
+    <string name="see_name_fishmans_bastion">Fisherman\'s Bastion</string>
+    <string name="see_name_matthias_church">Matthias Church</string>
+    <string name="see_name_hungarian_state_opera_house">Hungarian State Opera House</string>
+    <string name="see_name_margaret_island">Margaret Island</string>
+    <string name="see_name_nepliget">Népliget</string>
+
+    <!-- Short Description for places for See -->
+    <string name="see_sd_chain_bridge">Spans the River Danube between Buda and Pest, the western and eastern sides.</string>
     <string name="see_sd_elisabeth_bridge">The third newest bridge connecting Buda and Pest across the River Danube.</string>
     <string name="see_sd_ststephens_basilica">Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.</string>
     <string name="see_sd_hungarian_parliament_building">Currently the largest building in Hungary and the tallest building in Budapest.</string>
@@ -37,14 +58,31 @@
     <string name="see_sd_margaret_island">In the middle of the Danube in central Budapest.</string>
     <string name="see_sd_nepliget">The biggest public park in Budapest.</string>
 
-    <!-- Short Description for places for eat -->
+    <!-- Name for places for Eat -->
+    <string name="eat_name_comme_chez_soi">Comme Chez Soi</string>
+    <string name="eat_name_vintage_garden">Vintage Garden (Dec 23 19:00)</string>
+    <string name="eat_name_meat_boutique">Meat Boutique (Dec 24 19:00)</string>
+    <string name="eat_name_kiosk">Kiosk (Dec 27 19:00)</string>
+    <string name="eat_name_tuning_bar_burger">Tuning Bar · Burger</string>
+    <string name="eat_name_terminal">Terminal</string>
+    <string name="eat_name_pastrami">Pastrami</string>
+    <string name="eat_name_paprika_vendeglo">Paprika Vendéglő</string>
+    <string name="eat_name_menza">Menza</string>
+    <string name="eat_name_nagyi_palacsintazoja">Nagyi Palacsintázója</string>
+    <string name="eat_name_cafe_gerbeaud">Café Gerbeaud</string>
+    <string name="eat_name_ambers">Amber\'s</string>
+    <string name="eat_name_fruccola">Fruccola</string>
+    <string name="eat_name_book_cafe_lotz_hall">Book Café - Lotz Hall</string>
+    <string name="eat_name_new_york_cafe">New York Café</string>
+
+    <!-- Short Description for places for Eat -->
     <string name="eat_sd_comme_chez_soi">A romantic, candlelit dinner in a true small Mediterranean Restaurant!</string>
     <string name="eat_sd_vintage_garden">Hungarian Restaurant</string>
     <string name="eat_sd_meat_boutique">Sitting at the foot of Castle Hill, the Chain Bridge Buda side, with view of the Danube flowing.</string>
     <string name="eat_sd_kiosk">A meeting point where you will find the perfect mood adjusted for every time of the day.</string>
     <string name="eat_sd_tuning_bar_burger">Bar · Grill · Burger Restaurant</string>
     <string name="eat_sd_terminal">Situated in what was once a bus station, where fusion cuisine await gastronomic adventurers.</string>
-    <string name="eat_sd_pastrami">Because you need a place where you can at last taste New York’s most popular sandwiches.</string>
+    <string name="eat_sd_pastrami">Because you need a place where you can at last taste New York\’s most popular sandwiches.</string>
     <string name="eat_sd_paprika_vendeglo">Hungarian Restaurant</string>
     <string name="eat_sd_menza">Merging modern restaurants with the atmosphere Budapest\'s 1960s coffee bars.</string>
     <string name="eat_sd_nagyi_palacsintazoja">The most authentic pancake bars of Budapest established more than 20 years ago.</string>
@@ -54,7 +92,19 @@
     <string name="eat_sd_book_cafe_lotz_hall">Opened on March 3, 1911, which was Paris Department Store, Budapest\'s first building.</string>
     <string name="eat_sd_new_york_cafe">Built in eclectic Italian Renaissance-style and opened on October 23rd 1894.</string>
 
-    <!-- Short Description for places for shop -->
+    <!-- Name for places for Shop -->
+    <string name="shop_name_terminal_market">Terminal Market</string>
+    <string name="shop_name_cafe_gerbeaud">Café Gerbeaud</string>
+    <string name="shop_name_book_cafe_lotz_hall">Book Café - Lotz Hall</string>
+    <string name="shop_name_arena_plaza">Arena Plaza</string>
+    <string name="shop_name_vaci_street">Váci Street</string>
+    <string name="shop_name_andrassy_ut">Andrássy út</string>
+    <string name="shop_name_herend_porcelain_manufactory">Herend Porcelain Manufactory</string>
+    <string name="shop_name_memories_of_hungary">Memories of Hungary</string>
+    <string name="shop_name_cba">CBA</string>
+    <string name="shop_name_premier_outlets">Premier Outlets</string>
+
+    <!-- Short Description for places for Shop -->
     <string name="shop_sd_terminal_market">Authentic wines from the hearth of Europe.</string>
     <string name="shop_sd_cafe_gerbeaud">You can choose from an extensive range of beautifully and exquisitely packaged chocolate.</string>
     <string name="shop_sd_book_cafe_lotz_hall">Not only bookstores, multi-purpose cultural center as well.</string>
@@ -66,7 +116,17 @@
     <string name="shop_sd_cba">Supermarket</string>
     <string name="shop_sd_premier_outlets">30-70% off normal retail price everyday!</string>
 
-    <!-- Short Description for places for play -->
+    <!-- Name for places for Play -->
+    <string name="play_name_kiosk">Kiosk (Dec 27 19:00)</string>
+    <string name="play_name_cinema_city_arena">Cinema City Arena</string>
+    <string name="play_name_szechenyi_thermal_bath">Széchenyi thermal bath</string>
+    <string name="play_name_gellert_baths">Gellért Baths</string>
+    <string name="play_name_rudas_baths">Rudas Baths</string>
+    <string name="play_name_magnolia_day_spa">Magnolia Day Spa</string>
+    <string name="play_name_mandala_day_spa">Mandala Day Spa</string>
+    <string name="play_name_oxygen_wellness">OXYGEN Wellness</string>
+
+    <!-- Short Description for places for Play -->
     <string name="play_sd_kiosk">A meeting point where you will find the perfect mood adjusted for every time of the day.</string>
     <string name="play_sd_cinema_city_arena">The only IMAX in Budapest plus 23 Screens and VIP rooms.</string>
     <string name="play_sd_szechenyi_thermal_bath">One of Europe\'s largest bath complexes in the heart of the City Park.</string>
@@ -75,5 +135,5 @@
     <string name="play_sd_magnolia_day_spa">A place where no effort is spared to achieve harmony of body and soul.</string>
     <string name="play_sd_mandala_day_spa">The home of relaxation and harmony.</string>
     <string name="play_sd_oxygen_wellness">Hungary\'s largest fitness and wellness facilities.</string>
-    
+
 </resources>

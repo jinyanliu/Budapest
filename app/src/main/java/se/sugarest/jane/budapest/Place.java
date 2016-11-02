@@ -7,9 +7,9 @@ package se.sugarest.jane.budapest;
 public class Place {
 
     /**
-     * Name for the place
+     * Name string resource Id for the place
      */
-    private String mPlaceName;
+    private int mPlaceName;
 
     /**
      * Short description string resource Id for the place
@@ -29,12 +29,12 @@ public class Place {
     /**
      * Create a new Place object.
      *
-     * @param placeName        is the name of the place
+     * @param placeName        is the string Id for the name of the place
      * @param shortDescription is the string Id for the short description of the place
      * @param website          is the website of the place
      * @param imageResourceId  is the drawable resource ID for the image associated with the place
      */
-    public Place(String placeName, int shortDescription, String website, int imageResourceId) {
+    public Place(int placeName, int shortDescription, String website, int imageResourceId) {
         mPlaceName = placeName;
         mShortDescription = shortDescription;
         mWebsite = website;
@@ -42,9 +42,9 @@ public class Place {
     }
 
     /**
-     * @return the name of the place.
+     * @return the string Id for the name of the place.
      */
-    public String getPlaceName() {
+    public int getPlaceName() {
         return mPlaceName;
     }
 
