@@ -7,7 +7,7 @@ package se.sugarest.jane.budapest;
 public class Place {
 
     /**
-     * Place name for the place
+     * Name for the place
      */
     private String mPlaceName;
 
@@ -17,7 +17,7 @@ public class Place {
     private String mShortDescription;
 
     /**
-     * Website for the place
+     * Home page or Wikipedia Link of the place
      */
     private String mWebsite;
 
@@ -42,7 +42,7 @@ public class Place {
     }
 
     /**
-     * @return the place name of the place.
+     * @return the name of the place.
      */
     public String getPlaceName() {
         return mPlaceName;
@@ -63,7 +63,7 @@ public class Place {
     }
 
     /**
-     * @return the short description of the place.
+     * @return the drawable resource ID for the image associated with the place.
      */
     public int getImageResourceId() {
         return mImageResourceId;

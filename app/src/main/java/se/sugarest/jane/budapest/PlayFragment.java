@@ -42,17 +42,15 @@ public class PlayFragment extends Fragment {
 
         /**
          * Find the ListView object in the view hierarchy of the Activity.
-         * There should be a ListView with the view ID called list, which is declared in word_list xml layout file.
+         * There is a ListView with the view ID called list, which is declared in word_list xml layout file.
          */
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         /**
-         * Make the ListView use the PlayAdapter we created above,
-         * so that the ListView will display list items for each play in the list.
+         * Make the ListView use the PlayAdapter so that the ListView will display list items for each place in the list.
          */
         listView.setAdapter(adapter);
 
         return rootView;
     }
-
 }
