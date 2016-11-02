@@ -25,8 +25,6 @@ public class SeeFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-
-
         places.add(new Place("Chain Bridge", "Spans the River Danube between Buda and Pest, the western and eastern sides.", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", R.drawable.see_chain_bridge));
         places.add(new Place("Elisabeth Bridge", "The third newest bridge connecting Buda and Pest across the River Danube.", "https://en.wikipedia.org/wiki/Elisabeth_Bridge_(Budapest)", R.drawable.see_elisabeth_bridge));
         places.add(new Place("St. Stephen's Basilica", "Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.", "http://www.bazilika.biz/", R.drawable.see_ststephens_basilica));
@@ -44,10 +42,8 @@ public class SeeFragment extends Fragment {
         places.add(new Place("Fisherman's Bastion", "Were built in the 19th century to serve as a lookout tower for the best panoramic views.", "http://www.fishermansbastion.com/", R.drawable.see_fishermans_bastion));
         places.add(new Place("Matthias Church", "A Roman Catholic church, which was constructed in the florid late Gothic style.", "http://www.matyas-templom.hu/", R.drawable.see_matthias_church));
         places.add(new Place("Hungarian State Opera House", "The second largest opera house in Budapest and in Hungary.", "http://www.opera.hu/", R.drawable.see_hungarian_state_opera_house));
-
-
-
-        places.add(new Place("Margaret Island", "island & park", "https://en.wikipedia.org/wiki/Margaret_Island", 0));
+        places.add(new Place("Margaret Island", "In the middle of the Danube in central Budapest.", "https://en.wikipedia.org/wiki/Margaret_Island", R.drawable.see_margaret_island));
+        places.add(new Place("Népliget", "The biggest public park in Budapest.", "https://en.wikipedia.org/wiki/People%27s_Park_(Budapest)", R.drawable.see_nepliget));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
