@@ -33,9 +33,9 @@ public class BudapestFragmentPagerAdapter extends android.support.v4.app.Fragmen
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new EatFragment();
-        } else if (position == 1) {
             return new SeeFragment();
+        } else if (position == 1) {
+            return new EatFragment();
         } else if (position == 2) {
             return new ShopFragment();
         } else
@@ -53,9 +53,9 @@ public class BudapestFragmentPagerAdapter extends android.support.v4.app.Fragmen
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
-            return mContext.getString(R.string.category_eat);
-        } else if (position == 1) {
             return mContext.getString(R.string.category_see);
+        } else if (position == 1) {
+            return mContext.getString(R.string.category_eat);
         } else if (position == 2) {
             return mContext.getString(R.string.category_shop);
         } else {
