@@ -29,6 +29,10 @@ public class SeeFragment extends Fragment {
         places.add(new Place("Buda Castle", "The castle of the Hungarian kings, which was first completed in 1265.", "http://www2.budavar.hu/index.php?menu=136", R.drawable.see_buda_castle));
         places.add(new Place("Budapest History Museum", "The museum of the capital's history documents, collect relics.", "http://www.btm.hu/", R.drawable.see_budapest_history_museum));
         places.add(new Place("Hungarian National Gallery", "Established in 1957 as the national art museum.", "http://mng.hu/", R.drawable.see_hungarian_national_gallery));
+        places.add(new Place("National Széchényi Library", "Repositories of knowledge in the cultural heritage.", "http://www.oszk.hu/", R.drawable.see_national_szechenyi_library));
+        places.add(new Place("Museum of Fine Arts", "International Art", "http://www.szepmuveszeti.hu/", R.drawable.see_museum_of_fine_arts));
+        places.add(new Place("Fisherman's Bastion", "historical building", "http://www.fishermansbastion.com/", 0));
+
         places.add(new Place("Budapest Zoo and Botanical Garden", "zoo & park", "https://en.wikipedia.org/wiki/Budapest_Zoo_and_Botanical_Garden", 0));
         places.add(new Place("Margaret Island", "island & park", "https://en.wikipedia.org/wiki/Margaret_Island", 0));
         places.add(new Place("Chain Bridge", "bridge", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", 0));
