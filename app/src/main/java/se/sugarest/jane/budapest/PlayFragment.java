@@ -27,6 +27,7 @@ public class PlayFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<Place>();
 
         places.add(new Place("Kiosk (Dec 27 19:00)","A meeting point where you will find the perfect mood adjusted for every time of the day.","http://kiosk-budapest.com/", R.drawable.play_kiosk));
+        places.add(new Place("Cinema City Arena","The only IMAX in Budapest plus 23 Screens and VIP rooms.","http://www.arenaplaza.hu/", R.drawable.play_cinema_city_arena));
         places.add(new Place("Magnolia Day Spa","day spa","http://www.magnoliadayspa.hu/", 0));
         places.add(new Place("Mandala Day Spa","day spa","http://www.en.mandaladayspa.hu/", 0));
         places.add(new Place("Széchenyi thermal bath","bath","http://www.szechenyibath.hu/", 0));
