@@ -39,7 +39,7 @@ public class EatFragment extends Fragment {
         places.add(new Place("Café Gerbeaud","Tradition and Innovation.","http://www.gerbeaud.hu/", R.drawable.eat_gerbeaud_cukraszda));
         places.add(new Place("Amber's","French Bakery & Cafe","https://ambers.hu/", R.drawable.eat_ambers));
         places.add(new Place("Fruccola","Nice to sweet you.","http://fruccola.hu/", R.drawable.eat_fruccola));
-
+        places.add(new Place("Book Café - Lotz Hall","Opened on March 3, 1911, which was Paris Department Store, Budapest's first building.","http://www.lotzterem.hu/", R.drawable.eat_book_cafe));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
