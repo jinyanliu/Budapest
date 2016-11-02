@@ -27,11 +27,11 @@ public class PlayFragment extends Fragment {
 
         places.add(new Place("Kiosk (Dec 27 19:00)", "A meeting point where you will find the perfect mood adjusted for every time of the day.", "http://kiosk-budapest.com/", R.drawable.play_kiosk));
         places.add(new Place("Cinema City Arena", "The only IMAX in Budapest plus 23 Screens and VIP rooms.", "http://www.arenaplaza.hu/", R.drawable.play_cinema_city_arena));
-        places.add(new Place("Magnolia Day Spa", "day spa", "http://www.magnoliadayspa.hu/", 0));
-        places.add(new Place("Mandala Day Spa", "day spa", "http://www.en.mandaladayspa.hu/", 0));
-        places.add(new Place("Széchenyi thermal bath", "bath", "http://www.szechenyibath.hu/", 0));
+        places.add(new Place("Széchenyi thermal bath", "One of Europe's largest bath complexes in the heart of the City Park.", "http://www.szechenyifurdo.hu/", R.drawable.play_szechenyi_thermal_bath));
         places.add(new Place("Gellért Baths", "Part of the famous Hotel Gellért in Buda, which is a bath complex.", "http://www.gellertfurdo.hu/", R.drawable.play_gellert_baths));
         places.add(new Place("Rudas Baths", "A thermal and medicinal bath.", "http://www.rudasfurdo.hu/", R.drawable.play_rudas_baths));
+        places.add(new Place("Magnolia Day Spa", "day spa", "http://www.magnoliadayspa.hu/", 0));
+        places.add(new Place("Mandala Day Spa", "day spa", "http://www.en.mandaladayspa.hu/", 0));
         places.add(new Place("OXYGEN Wellness", "gym & bath", "http://www.oxygenwellness.hu/", 0));
         places.add(new Place("Buda Hills", "hill", "https://en.wikipedia.org/wiki/Buda_Hills", 0));
         places.add(new Place("Akvárium Klub", "live music", "http://akvariumklub.hu/", 0));
