@@ -28,7 +28,7 @@ public class SeeFragment extends Fragment {
         places.add(new Place("Chain Bridge", "Spans the River Danube between Buda and Pest, the western and eastern sides.", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", R.drawable.see_chain_bridge));
         places.add(new Place("Elisabeth Bridge", "The third newest bridge connecting Buda and Pest across the River Danube.", "https://en.wikipedia.org/wiki/Elisabeth_Bridge_(Budapest)", R.drawable.see_elisabeth_bridge));
         places.add(new Place("St. Stephen's Basilica", "Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.", "http://www.bazilika.biz/", R.drawable.see_ststephens_basilica));
-        places.add(new Place("Hungarian Parliament Building", "Currently the largest building in Hungary and the tallest building in Budapest", "http://www.parlament.hu/", R.drawable.see_hungarian_parliament_building));
+        places.add(new Place("Hungarian Parliament Building", "Currently the largest building in Hungary and the tallest building in Budapest.", "http://www.parlament.hu/", R.drawable.see_hungarian_parliament_building));
         places.add(new Place("Gellért Hill", "A 235m high hill overlooking the Danube.", "https://en.wikipedia.org/wiki/Gell%C3%A9rt_Hill", R.drawable.see_gellert_hill));
         places.add(new Place("Várhegy", "Castle Hill", "https://en.wikipedia.org/wiki/V%C3%A1rhegy", R.drawable.see_varhegy));
         places.add(new Place("Buda Castle", "The castle of the Hungarian kings, which was first completed in 1265.", "http://www2.budavar.hu/index.php?menu=136", R.drawable.see_buda_castle));
