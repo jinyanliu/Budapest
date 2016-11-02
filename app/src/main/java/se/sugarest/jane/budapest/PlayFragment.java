@@ -25,14 +25,14 @@ public class PlayFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place(R.string.play_name_kiosk, R.string.play_sd_kiosk, "http://kiosk-budapest.com/", R.drawable.play_kiosk));
-        places.add(new Place(R.string.play_name_cinema_city_arena, R.string.play_sd_cinema_city_arena, "http://www.arenaplaza.hu/", R.drawable.play_cinema_city_arena));
-        places.add(new Place(R.string.play_name_szechenyi_thermal_bath, R.string.play_sd_szechenyi_thermal_bath, "http://www.szechenyifurdo.hu/", R.drawable.play_szechenyi_thermal_bath));
-        places.add(new Place(R.string.play_name_gellert_baths, R.string.play_sd_gellert_baths, "http://www.gellertfurdo.hu/", R.drawable.play_gellert_baths));
-        places.add(new Place(R.string.play_name_rudas_baths, R.string.play_sd_rudas_baths, "http://www.rudasfurdo.hu/", R.drawable.play_rudas_baths));
-        places.add(new Place(R.string.play_name_magnolia_day_spa, R.string.play_sd_magnolia_day_spa, "http://www.magnoliadayspa.hu/", R.drawable.play_magnolia_day_spa));
-        places.add(new Place(R.string.play_name_mandala_day_spa, R.string.play_sd_mandala_day_spa, "http://www.mandaladayspa.hu/", R.drawable.play_mandala_day_spa));
-        places.add(new Place(R.string.play_name_oxygen_wellness, R.string.play_sd_oxygen_wellness, "http://www.oxygenwellness.hu/", R.drawable.play_oxygen_wellness));
+        places.add(new Place(R.string.play_name_kiosk, R.string.play_sd_kiosk, R.string.play_web_kiosk, R.drawable.play_kiosk));
+        places.add(new Place(R.string.play_name_cinema_city_arena, R.string.play_sd_cinema_city_arena, R.string.play_web_cinema_city_arena, R.drawable.play_cinema_city_arena));
+        places.add(new Place(R.string.play_name_szechenyi_thermal_bath, R.string.play_sd_szechenyi_thermal_bath, R.string.play_web_szechenyi_thermal_bath, R.drawable.play_szechenyi_thermal_bath));
+        places.add(new Place(R.string.play_name_gellert_baths, R.string.play_sd_gellert_baths, R.string.play_web_gellert_baths, R.drawable.play_gellert_baths));
+        places.add(new Place(R.string.play_name_rudas_baths, R.string.play_sd_rudas_baths, R.string.play_web_rudas_baths, R.drawable.play_rudas_baths));
+        places.add(new Place(R.string.play_name_magnolia_day_spa, R.string.play_sd_magnolia_day_spa, R.string.play_web_magnolia_day_spa, R.drawable.play_magnolia_day_spa));
+        places.add(new Place(R.string.play_name_mandala_day_spa, R.string.play_sd_mandala_day_spa, R.string.play_web_mandala_day_spa, R.drawable.play_mandala_day_spa));
+        places.add(new Place(R.string.play_name_oxygen_wellness, R.string.play_sd_oxygen_wellness, R.string.play_web_oxygen_wellness, R.drawable.play_oxygen_wellness));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.

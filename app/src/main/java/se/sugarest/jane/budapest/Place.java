@@ -17,24 +17,24 @@ public class Place {
     private int mShortDescription;
 
     /**
-     * Home page or Wikipedia Link of the place
+     * Website resource Id of the place
      */
-    private String mWebsite;
+    private int mWebsite;
 
     /**
-     * Image Id for the place
+     * Image resource Id for the place
      */
     private int mImageResourceId;
 
     /**
      * Create a new Place object.
      *
-     * @param placeName        is the string Id for the name of the place
-     * @param shortDescription is the string Id for the short description of the place
-     * @param website          is the website of the place
+     * @param placeName        is the string resource Id for the name of the place
+     * @param shortDescription is the string resource Id for the short description of the place
+     * @param website          is the string resource Id for the website of the place
      * @param imageResourceId  is the drawable resource ID for the image associated with the place
      */
-    public Place(int placeName, int shortDescription, String website, int imageResourceId) {
+    public Place(int placeName, int shortDescription, int website, int imageResourceId) {
         mPlaceName = placeName;
         mShortDescription = shortDescription;
         mWebsite = website;
@@ -42,23 +42,23 @@ public class Place {
     }
 
     /**
-     * @return the string Id for the name of the place.
+     * @return the string resource Id for the name of the place.
      */
     public int getPlaceName() {
         return mPlaceName;
     }
 
     /**
-     * @return the string Id for the short description of the place.
+     * @return the string resource Id for the short description of the place.
      */
     public int getShortDescription() {
         return mShortDescription;
     }
 
     /**
-     * @return website of the place.
+     * @return string resource Id for the website of the place.
      */
-    public String getWebsite() {
+    public int getWebsite() {
         return mWebsite;
     }
 

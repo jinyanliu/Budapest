@@ -25,21 +25,21 @@ public class EatFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place(R.string.eat_name_comme_chez_soi, R.string.eat_sd_comme_chez_soi, "http://www.commechezsoi.hu/", R.drawable.eat_comme_chez_soi));
-        places.add(new Place(R.string.eat_name_vintage_garden, R.string.eat_sd_vintage_garden, "https://www.facebook.com/vintagegardenbudapest/", R.drawable.eat_vintage_garden));
-        places.add(new Place(R.string.eat_name_meat_boutique, R.string.eat_sd_meat_boutique, "http://meatboutique.hu/", R.drawable.eat_meat_boutique));
-        places.add(new Place(R.string.eat_name_kiosk, R.string.eat_sd_kiosk, "http://kiosk-budapest.com/", R.drawable.eat_kiosk));
-        places.add(new Place(R.string.eat_name_tuning_bar_burger, R.string.eat_sd_tuning_bar_burger, "http://www.tuningburgerbudapest.hu/", R.drawable.eat_tuning_bar_burger));
-        places.add(new Place(R.string.eat_name_terminal, R.string.eat_sd_terminal, "http://terminalrestaurant.hu/", R.drawable.eat_terminal));
-        places.add(new Place(R.string.eat_name_pastrami, R.string.eat_sd_pastrami, "http://pastrami.hu/", R.drawable.eat_pastrami));
-        places.add(new Place(R.string.eat_name_paprika_vendeglo, R.string.eat_sd_paprika_vendeglo, "http://www.paprikavendeglo.hu/", R.drawable.eat_paprika_vendeglo));
-        places.add(new Place(R.string.eat_name_menza, R.string.eat_sd_menza, "http://www.menzaetterem.hu/", R.drawable.eat_menza));
-        places.add(new Place(R.string.eat_name_nagyi_palacsintazoja, R.string.eat_sd_nagyi_palacsintazoja, "http://nagyipali.hu/", R.drawable.eat_nagyi_palacsintazoja));
-        places.add(new Place(R.string.eat_name_cafe_gerbeaud, R.string.eat_sd_cafe_gerbeaud, "http://www.gerbeaud.hu/", R.drawable.eat_gerbeaud_cukraszda));
-        places.add(new Place(R.string.eat_name_ambers, R.string.eat_sd_ambers, "https://ambers.hu/", R.drawable.eat_ambers));
-        places.add(new Place(R.string.eat_name_fruccola, R.string.eat_sd_fruccola, "http://fruccola.hu/", R.drawable.eat_fruccola));
-        places.add(new Place(R.string.eat_name_book_cafe_lotz_hall, R.string.eat_sd_book_cafe_lotz_hall, "http://www.lotzterem.hu/", R.drawable.eat_book_cafe));
-        places.add(new Place(R.string.eat_name_new_york_cafe, R.string.eat_sd_new_york_cafe, "http://www.newyorkcafe.hu/", R.drawable.eat_new_york_cafe));
+        places.add(new Place(R.string.eat_name_comme_chez_soi, R.string.eat_sd_comme_chez_soi, R.string.eat_web_comme_chez_soi, R.drawable.eat_comme_chez_soi));
+        places.add(new Place(R.string.eat_name_vintage_garden, R.string.eat_sd_vintage_garden, R.string.eat_web_vintage_garden, R.drawable.eat_vintage_garden));
+        places.add(new Place(R.string.eat_name_meat_boutique, R.string.eat_sd_meat_boutique, R.string.eat_web_meat_boutique, R.drawable.eat_meat_boutique));
+        places.add(new Place(R.string.eat_name_kiosk, R.string.eat_sd_kiosk, R.string.eat_web_kiosk, R.drawable.eat_kiosk));
+        places.add(new Place(R.string.eat_name_tuning_bar_burger, R.string.eat_sd_tuning_bar_burger, R.string.eat_web_tuning_bar_burger, R.drawable.eat_tuning_bar_burger));
+        places.add(new Place(R.string.eat_name_terminal, R.string.eat_sd_terminal, R.string.eat_web_terminal, R.drawable.eat_terminal));
+        places.add(new Place(R.string.eat_name_pastrami, R.string.eat_sd_pastrami, R.string.eat_web_pastrami, R.drawable.eat_pastrami));
+        places.add(new Place(R.string.eat_name_paprika_vendeglo, R.string.eat_sd_paprika_vendeglo, R.string.eat_web_paprika_vendeglo, R.drawable.eat_paprika_vendeglo));
+        places.add(new Place(R.string.eat_name_menza, R.string.eat_sd_menza, R.string.eat_web_menza, R.drawable.eat_menza));
+        places.add(new Place(R.string.eat_name_nagyi_palacsintazoja, R.string.eat_sd_nagyi_palacsintazoja, R.string.eat_web_nagyi_palacsintazoja, R.drawable.eat_nagyi_palacsintazoja));
+        places.add(new Place(R.string.eat_name_cafe_gerbeaud, R.string.eat_sd_cafe_gerbeaud, R.string.eat_web_cafe_gerbeaud, R.drawable.eat_gerbeaud_cukraszda));
+        places.add(new Place(R.string.eat_name_ambers, R.string.eat_sd_ambers, R.string.eat_web_ambers, R.drawable.eat_ambers));
+        places.add(new Place(R.string.eat_name_fruccola, R.string.eat_sd_fruccola, R.string.eat_web_fruccola, R.drawable.eat_fruccola));
+        places.add(new Place(R.string.eat_name_book_cafe_lotz_hall, R.string.eat_sd_book_cafe_lotz_hall, R.string.eat_web_book_cafe_lotz_hall, R.drawable.eat_book_cafe));
+        places.add(new Place(R.string.eat_name_new_york_cafe, R.string.eat_sd_new_york_cafe, R.string.eat_web_new_york_cafe, R.drawable.eat_new_york_cafe));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
