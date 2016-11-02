@@ -33,11 +33,7 @@ public class ShopFragment extends Fragment {
         places.add(new Place("Váci Street","Main Shopping Street","https://en.wikipedia.org/wiki/V%C3%A1ci_Street", R.drawable.shop_vaci_street));
         places.add(new Place("Andrássy út","Main Shopping Street","https://en.wikipedia.org/wiki/Andr%C3%A1ssy_%C3%BAt", R.drawable.shop_andrassy_ut));
         places.add(new Place("Herend Porcelain Manufactory","Beauty to be treatured for ever.","http://herend.com/", R.drawable.shop_herend_porcelain_manufactory));
-        places.add(new Place("Memories of Hungary","arts & crafts","http://memoriesofhungary.hu/en/", 0));
-        places.add(new Place("Rózsavölgyi Csokoládé","chocolate","http://www.rozsavolgyi.com/en/index.php", 0));
-        places.add(new Place("Vass Shoes","shoes","http://www.vass-shoes.com/", 0));
-        places.add(new Place("Bortársaság","wine","http://www.bortarsasag.hu/en/", 0));
-        places.add(new Place("BÁV","antiques","http://www.bav.hu/en/", 0));
+        places.add(new Place("Memories of Hungary","To present Hungary a bit differently than they ususally do.","http://memoriesofhungary.hu/hu/", R.drawable.shop_memories_of_hungary));
         places.add(new Place("CBA","Supermarket","http://www.cba.hu/", R.drawable.shop_cba));
         places.add(new Place("Premier Outlets","30-70% off normal retail price everyday!","http://premieroutlet.hu/", R.drawable.shop_outlet));
 
