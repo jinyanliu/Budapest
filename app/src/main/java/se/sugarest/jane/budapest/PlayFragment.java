@@ -31,6 +31,7 @@ public class PlayFragment extends Fragment {
         places.add(new Place("Mandala Day Spa", "day spa", "http://www.en.mandaladayspa.hu/", 0));
         places.add(new Place("Széchenyi thermal bath", "bath", "http://www.szechenyibath.hu/", 0));
         places.add(new Place("Gellért Baths", "bath", "http://www.gellertfurdo.hu/", 0));
+        places.add(new Place("Rudas Baths", "A thermal and medicinal bath.", "http://www.rudasfurdo.hu/", R.drawable.play_rudas_baths));
         places.add(new Place("OXYGEN Wellness", "gym & bath", "http://www.oxygenwellness.hu/", 0));
         places.add(new Place("Buda Hills", "hill", "https://en.wikipedia.org/wiki/Buda_Hills", 0));
         places.add(new Place("Akvárium Klub", "live music", "http://akvariumklub.hu/", 0));
