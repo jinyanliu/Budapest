@@ -36,7 +36,7 @@ public class SeeFragment extends Fragment {
         places.add(new Place("Chain Bridge", "Spans the River Danube between Buda and Pest, the western and eastern sides.", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", R.drawable.see_chain_bridge));
         places.add(new Place("St. Stephen's Basilica", "Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.", "http://www.bazilika.biz/", R.drawable.see_ststephens_basilica));
         places.add(new Place("Hungarian Parliament Building", "Currently the largest building in Hungary and the tallest building in Budapest", "http://www.parlament.hu/", R.drawable.see_hungarian_parliament_building));
-
+        places.add(new Place("Gellért Hill", "A 235m high hill overlooking the Danube.", "https://en.wikipedia.org/wiki/Gell%C3%A9rt_Hill", R.drawable.see_gellert_hill));
 
         places.add(new Place("Budapest Zoo and Botanical Garden", "zoo & park", "https://en.wikipedia.org/wiki/Budapest_Zoo_and_Botanical_Garden", 0));
         places.add(new Place("Margaret Island", "island & park", "https://en.wikipedia.org/wiki/Margaret_Island", 0));
