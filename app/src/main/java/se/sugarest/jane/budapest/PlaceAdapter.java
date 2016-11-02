@@ -2,7 +2,6 @@ package se.sugarest.jane.budapest;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,16 +19,14 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
     private static final String LOG_TAG = PlaceAdapter.class.getSimpleName();
 
-    //Resource ID for the background color for this list of places
-    private int mColorResourceId;
-
     /**
      * This is my own constructor (it doesn't mirror a superclass constructor).
      * The context is used to inflate the layout file, and the list is the data we want to populate into the lists.
+     *
      * @param context The current context. Used to inflate the layout file.
-     * @param place A list of place objects to display in a list.
+     * @param place   A list of place objects to display in a list.
      */
-    public PlaceAdapter(Activity context, ArrayList<Place> place, int colorResourceId){
+    public PlaceAdapter(Activity context, ArrayList<Place> place) {
 
         /**
          * Here, I initialize the ArrayAdapter's internal storage for the context and the list.
@@ -37,15 +34,15 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
          * Because this is a custom adapter for three TextViews, the adapter is not going to use this second argument, so it can be any value.
          *  Here, I used 0.
          */
-        super(context,0,place);
-        mColorResourceId = colorResourceId;
+        super(context, 0, place);
     }
 
     /**
      * Provides a view for an AdapterView.
-     * @param position The position in the list of data that should be displayed in the list item view.
+     *
+     * @param position    The position in the list of data that should be displayed in the list item view.
      * @param convertView The recycled view to populate.
-     * @param parent The parent ViewGroup that is used fo rinflation.
+     * @param parent      The parent ViewGroup that is used fo rinflation.
      * @return The view for the position in the AdapterView.
      */
     @NonNull
@@ -59,7 +56,6 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
                     R.layout.list_item, parent, false);
         }
 
-
         // Get the Place object located at this position in the list
         Place currentPlace = getItem(position);
 
@@ -69,13 +65,11 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the name of the place from the current Place object and set this text on the name TextView
         nameTextView.setText(currentPlace.getPlaceName());
 
-
         // Find the TextView in the list_item.xml layout with the ID place_short_description_textview
         TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.place_short_description_textview);
 
         // Get the short description of the place from the current Place object and set this text on the description TextView
         descriptionTextView.setText(currentPlace.getShortDescription());
-
 
         // Find the TextView in the list_item.xml layout with the ID website_textview
         TextView websiteTextView = (TextView) listItemView.findViewById(R.id.website_textview);
@@ -83,20 +77,11 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the short description of the place from the current Place object and set this text on the description TextView
         websiteTextView.setText(currentPlace.getWebsite());
 
-
         // Find the ImageView in the list_item.xml layout with the ID list_item_background
         ImageView backgroundView = (ImageView) listItemView.findViewById(R.id.list_item_background);
 
         // Get the image resource ID from the current Place object and set the image to backgroundView
         backgroundView.setImageResource(currentPlace.getImageResourceId());
-
-        //Set the theme color for the list item
-        View textContainer = listItemView.findViewById(R.id.text_container);
-        //Find the color that the resource ID maps to
-        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-        //Set the background color of the text container View
-        textContainer.setBackgroundColor(color);
-
 
         return listItemView;
     }

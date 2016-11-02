@@ -2,16 +2,4 @@
 <resources>
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
-
-    <!-- Background color for the see category -->
-    <color name="category_see">#C8E6C9</color>
-
-    <!-- Background color for the eat eat category -->
-    <color name="category_eat">#FFE0B2</color>
-
-    <!-- Background color for the shop category -->
-    <color name="category_shop">#D1C4E9</color>
-
-    <!-- Background color for the play category -->
-    <color name="category_play">#B2DFDB</color>
 </resources>
