@@ -30,7 +30,7 @@ public class ShopFragment extends Fragment {
         places.add(new Place("Café Gerbeaud","You can choose from an extensive range of beautifully and exquisitely packaged chocolate.","http://www.gerbeaud.hu/", R.drawable.shop_gerbeaud_cukraszda));
         places.add(new Place("Book Café - Lotz Hall","Not only bookstores, multi-purpose cultural center as well.","http://www.lotzterem.hu/", R.drawable.shop_book_store));
         places.add(new Place("Arena Plaza","Great Entertainment.","http://www.arenaplaza.hu/", R.drawable.shop_plaza_arena));
-        places.add(new Place("Váci Street","tourist central","https://en.wikipedia.org/wiki/V%C3%A1ci_Street", 0));
+        places.add(new Place("Váci Street","Main Shopping Street","https://en.wikipedia.org/wiki/V%C3%A1ci_Street", R.drawable.shop_vaci_street));
         places.add(new Place("Andrássy út","shopping street","https://en.wikipedia.org/wiki/Andr%C3%A1ssy_%C3%BAt", 0));
         places.add(new Place("Hecserli","food","http://www.hecserli.hu/", 0));
         places.add(new Place("Herend Porcelain Manufactory","porcelain","https://en.wikipedia.org/wiki/Herend_Porcelain_Manufactoryh", 0));
