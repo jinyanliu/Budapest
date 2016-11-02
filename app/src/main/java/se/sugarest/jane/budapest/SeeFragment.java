@@ -33,7 +33,9 @@ public class SeeFragment extends Fragment {
         places.add(new Place("Museum of Fine Arts", "International Art", "http://www.szepmuveszeti.hu/", R.drawable.see_museum_of_fine_arts));
         places.add(new Place("Fisherman's Bastion", "Were built in the 19th century to serve as a lookout tower for the best panoramic views.", "http://www.fishermansbastion.com/", R.drawable.see_fishermans_bastion));
         places.add(new Place("Matthias Church", "A Roman Catholic church, which was constructed in the florid late Gothic style.", "http://www.matyas-templom.hu/", R.drawable.see_matthias_church));
-        places.add(new Place("Chain Bridge", "bridge", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", 0));
+        places.add(new Place("Chain Bridge", "Spans the River Danube between Buda and Pest, the western and eastern sides.", "https://en.wikipedia.org/wiki/Chain_Bridge_(Budapest)", R.drawable.see_chain_bridge));
+        places.add(new Place("St. Stephen's Basilica", "Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.", "http://www.bazilika.biz/", R.drawable.see_ststephens_basilica));
+        places.add(new Place("Hungarian Parliament Building", "Currently the largest building in Hungary and the tallest building in Budapest", "http://www.parlament.hu/", R.drawable.see_hungarian_parliament_building));
 
 
         places.add(new Place("Budapest Zoo and Botanical Garden", "zoo & park", "https://en.wikipedia.org/wiki/Budapest_Zoo_and_Botanical_Garden", 0));
@@ -41,8 +43,8 @@ public class SeeFragment extends Fragment {
 
         places.add(new Place("Deák Ferenc square", "square & transport junction", "https://en.wikipedia.org/wiki/De%C3%A1k_Ferenc_t%C3%A9r", 0));
         places.add(new Place("Great Market Hall", "indoor market", "https://en.wikipedia.org/wiki/Great_Market_Hall_(Budapest)", 0));
-        places.add(new Place("Buda Castle", "historical building", "https://en.wikipedia.org/wiki/Buda_Castle", 0));
-        places.add(new Place("Hungarian Parliament Building", "historical building", "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building", 0));
+
+
         places.add(new Place("Memento Park", "open-air museum", "https://en.wikipedia.org/wiki/Memento_Park", 0));
 
         /**
