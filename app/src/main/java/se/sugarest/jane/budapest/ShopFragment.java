@@ -27,6 +27,7 @@ public class ShopFragment extends Fragment {
         ArrayList<Place> places = new ArrayList<Place>();
 
         places.add(new Place("Terminal Market","Authentic wines from the hearth of Europe.","http://terminalrestaurant.hu/", R.drawable.shop_terminal_market));
+        places.add(new Place("Café Gerbeaud","You can choose from an extensive range of beautifully and exquisitely packaged chocolate.","http://www.gerbeaud.hu/", R.drawable.shop_gerbeaud_cukraszda));
         places.add(new Place("Arena Plaza","shopping plaza","http://www.arenaplaza.hu/en/", 0));
         places.add(new Place("Váci Street","tourist central","https://en.wikipedia.org/wiki/V%C3%A1ci_Street", 0));
         places.add(new Place("Andrássy út","shopping street","https://en.wikipedia.org/wiki/Andr%C3%A1ssy_%C3%BAt", 0));
