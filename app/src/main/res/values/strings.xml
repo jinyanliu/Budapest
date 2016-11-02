@@ -16,4 +16,64 @@
     <!-- Category name for places for play [CHAR LIMIT=20] -->
     <string name="category_play">Play</string>
 
+    <!-- Short Description for places for see -->
+    <string name="see_sd_chain_bridge">Spans the River Danube between Buda and Pest, the western and eastern sides.y</string>
+    <string name="see_sd_elisabeth_bridge">The third newest bridge connecting Buda and Pest across the River Danube.</string>
+    <string name="see_sd_ststephens_basilica">Dedicated to the holy king St Stephen who was also the founder of the Hungarian state.</string>
+    <string name="see_sd_hungarian_parliament_building">Currently the largest building in Hungary and the tallest building in Budapest.</string>
+    <string name="see_sd_gellert_hill">A 235m high hill overlooking the Danube.</string>
+    <string name="see_sd_varhergy">Castle Hill</string>
+    <string name="see_sd_buda_castle">The castle of the Hungarian kings, which was first completed in 1265.</string>
+    <string name="see_sd_budapest_history_museum">The museum of the history documents, collect relics.</string>
+    <string name="see_sd_hungarian_national_gallery">Established in 1957 as the national art museum.</string>
+    <string name="see_sd_great_market_hall">The largest and oldest indoor market in Budapest.</string>
+    <string name="see_sd_budapest_zoo_and_botanical_garden">The oldest zoo park in Hungary and one of the oldest in the world.</string>
+    <string name="see_sd_national_szechenyi_library">Repositories of knowledge in the cultural heritage.</string>
+    <string name="see_sd_museums_of_fine_arts">International Art</string>
+    <string name="see_sd_heroes_square">A host to many political events.</string>
+    <string name="see_sd_fishmans_bastion">Were built in the 19th century to serve as a lookout tower for the best panoramic views.</string>
+    <string name="see_sd_matthias_church">A Roman Catholic church, which was constructed in the florid late Gothic style.</string>
+    <string name="see_sd_hungarian_state_opera_house">The second largest opera house in Budapest and in Hungary.</string>
+    <string name="see_sd_margaret_island">In the middle of the Danube in central Budapest.</string>
+    <string name="see_sd_nepliget">The biggest public park in Budapest.</string>
+
+    <!-- Short Description for places for eat -->
+    <string name="eat_sd_comme_chez_soi">A romantic, candlelit dinner in a true small Mediterranean Restaurant!</string>
+    <string name="eat_sd_vintage_garden">Hungarian Restaurant</string>
+    <string name="eat_sd_meat_boutique">Sitting at the foot of Castle Hill, the Chain Bridge Buda side, with view of the Danube flowing.</string>
+    <string name="eat_sd_kiosk">A meeting point where you will find the perfect mood adjusted for every time of the day.</string>
+    <string name="eat_sd_tuning_bar_burger">Bar · Grill · Burger Restaurant</string>
+    <string name="eat_sd_terminal">Situated in what was once a bus station, where fusion cuisine await gastronomic adventurers.</string>
+    <string name="eat_sd_pastrami">Because you need a place where you can at last taste New York’s most popular sandwiches.</string>
+    <string name="eat_sd_paprika_vendeglo">Hungarian Restaurant</string>
+    <string name="eat_sd_menza">Merging modern restaurants with the atmosphere Budapest\'s 1960s coffee bars.</string>
+    <string name="eat_sd_nagyi_palacsintazoja">The most authentic pancake bars of Budapest established more than 20 years ago.</string>
+    <string name="eat_sd_cafe_gerbeaud">Tradition and Innovation.</string>
+    <string name="eat_sd_ambers">French Bakery · Cafe</string>
+    <string name="eat_sd_fruccola">Nice to sweet you.</string>
+    <string name="eat_sd_book_cafe_lotz_hall">Opened on March 3, 1911, which was Paris Department Store, Budapest\'s first building.</string>
+    <string name="eat_sd_new_york_cafe">Built in eclectic Italian Renaissance-style and opened on October 23rd 1894.</string>
+
+    <!-- Short Description for places for shop -->
+    <string name="shop_sd_terminal_market">Authentic wines from the hearth of Europe.</string>
+    <string name="shop_sd_cafe_gerbeaud">You can choose from an extensive range of beautifully and exquisitely packaged chocolate.</string>
+    <string name="shop_sd_book_cafe_lotz_hall">Not only bookstores, multi-purpose cultural center as well.</string>
+    <string name="shop_sd_arena_plaza">Great Entertainment.</string>
+    <string name="shop_sd_vaci_street">Main Shopping Street</string>
+    <string name="shop_sd_andrassy_ut">Main Shopping Street</string>
+    <string name="shop_sd_herend_porcelain_manufactory">Beauty to be treatured for ever.</string>
+    <string name="shop_sd_memories_of_hungary">To present Hungary a bit differently than they ususally do.</string>
+    <string name="shop_sd_cba">Supermarket</string>
+    <string name="shop_sd_premier_outlets">30-70% off normal retail price everyday!</string>
+
+    <!-- Short Description for places for play -->
+    <string name="play_sd_kiosk">A meeting point where you will find the perfect mood adjusted for every time of the day.</string>
+    <string name="play_sd_cinema_city_arena">The only IMAX in Budapest plus 23 Screens and VIP rooms.</string>
+    <string name="play_sd_szechenyi_thermal_bath">One of Europe\'s largest bath complexes in the heart of the City Park.</string>
+    <string name="play_sd_gellert_baths">Part of the famous Hotel Gellért in Buda, which is a bath complex.</string>
+    <string name="play_sd_rudas_baths">A thermal and medicinal bath.</string>
+    <string name="play_sd_magnolia_day_spa">A place where no effort is spared to achieve harmony of body and soul.</string>
+    <string name="play_sd_mandala_day_spa">The home of relaxation and harmony.</string>
+    <string name="play_sd_oxygen_wellness">Hungary\'s largest fitness and wellness facilities.</string>
+    
 </resources>

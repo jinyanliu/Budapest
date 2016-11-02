@@ -25,14 +25,14 @@ public class PlayFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
-        places.add(new Place("Kiosk (Dec 27 19:00)", "A meeting point where you will find the perfect mood adjusted for every time of the day.", "http://kiosk-budapest.com/", R.drawable.play_kiosk));
-        places.add(new Place("Cinema City Arena", "The only IMAX in Budapest plus 23 Screens and VIP rooms.", "http://www.arenaplaza.hu/", R.drawable.play_cinema_city_arena));
-        places.add(new Place("Széchenyi thermal bath", "One of Europe's largest bath complexes in the heart of the City Park.", "http://www.szechenyifurdo.hu/", R.drawable.play_szechenyi_thermal_bath));
-        places.add(new Place("Gellért Baths", "Part of the famous Hotel Gellért in Buda, which is a bath complex.", "http://www.gellertfurdo.hu/", R.drawable.play_gellert_baths));
-        places.add(new Place("Rudas Baths", "A thermal and medicinal bath.", "http://www.rudasfurdo.hu/", R.drawable.play_rudas_baths));
-        places.add(new Place("Magnolia Day Spa", "A place where no effort is spared to achieve harmony of body and soul.", "http://www.magnoliadayspa.hu/", R.drawable.play_magnolia_day_spa));
-        places.add(new Place("Mandala Day Spa", "The home of relaxation and harmony.", "http://www.mandaladayspa.hu/", R.drawable.play_mandala_day_spa));
-        places.add(new Place("OXYGEN Wellness", "Hungary's largest fitness and wellness facilities.", "http://www.oxygenwellness.hu/", R.drawable.play_oxygen_wellness));
+        places.add(new Place("Kiosk (Dec 27 19:00)", R.string.play_sd_kiosk, "http://kiosk-budapest.com/", R.drawable.play_kiosk));
+        places.add(new Place("Cinema City Arena", R.string.play_sd_cinema_city_arena, "http://www.arenaplaza.hu/", R.drawable.play_cinema_city_arena));
+        places.add(new Place("Széchenyi thermal bath", R.string.play_sd_szechenyi_thermal_bath, "http://www.szechenyifurdo.hu/", R.drawable.play_szechenyi_thermal_bath));
+        places.add(new Place("Gellért Baths", R.string.play_sd_gellert_baths, "http://www.gellertfurdo.hu/", R.drawable.play_gellert_baths));
+        places.add(new Place("Rudas Baths", R.string.play_sd_rudas_baths, "http://www.rudasfurdo.hu/", R.drawable.play_rudas_baths));
+        places.add(new Place("Magnolia Day Spa", R.string.play_sd_magnolia_day_spa, "http://www.magnoliadayspa.hu/", R.drawable.play_magnolia_day_spa));
+        places.add(new Place("Mandala Day Spa", R.string.play_sd_mandala_day_spa, "http://www.mandaladayspa.hu/", R.drawable.play_mandala_day_spa));
+        places.add(new Place("OXYGEN Wellness", R.string.play_sd_oxygen_wellness, "http://www.oxygenwellness.hu/", R.drawable.play_oxygen_wellness));
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.

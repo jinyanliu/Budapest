@@ -12,9 +12,9 @@ public class Place {
     private String mPlaceName;
 
     /**
-     * Short description for the place
+     * Short description string resource Id for the place
      */
-    private String mShortDescription;
+    private int mShortDescription;
 
     /**
      * Home page or Wikipedia Link of the place
@@ -30,11 +30,11 @@ public class Place {
      * Create a new Place object.
      *
      * @param placeName        is the name of the place
-     * @param shortDescription is the short description of the place
+     * @param shortDescription is the string Id for the short description of the place
      * @param website          is the website of the place
      * @param imageResourceId  is the drawable resource ID for the image associated with the place
      */
-    public Place(String placeName, String shortDescription, String website, int imageResourceId) {
+    public Place(String placeName, int shortDescription, String website, int imageResourceId) {
         mPlaceName = placeName;
         mShortDescription = shortDescription;
         mWebsite = website;
@@ -49,9 +49,9 @@ public class Place {
     }
 
     /**
-     * @return the short description of the place.
+     * @return the string Id for the short description of the place.
      */
-    public String getShortDescription() {
+    public int getShortDescription() {
         return mShortDescription;
     }
 
@@ -69,15 +69,6 @@ public class Place {
         return mImageResourceId;
     }
 
-    @Override
-    public String toString() {
-        return "Place{" +
-                "mPlaceName='" + mPlaceName + '\'' +
-                ", mShortDescription='" + mShortDescription + '\'' +
-                ", mWebsite='" + mWebsite + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
-                '}';
-    }
 }
 
 
