@@ -34,8 +34,12 @@ public class EatFragment extends Fragment {
         places.add(new Place("Vintage Garden","Hungarian Restaurant","https://www.facebook.com/vintagegardenbudapest/", R.drawable.eat_vintage_garden));
         places.add(new Place("Pastrami","Because you need a place where you can at last taste New York’s most popular sandwiches.","http://pastrami.hu/", R.drawable.eat_pastrami));
         places.add(new Place("Paprika Vendéglő","Hungarian Restaurant","http://www.paprikavendeglo.hu/", R.drawable.eat_paprika_vendeglo));
+        places.add(new Place("Menza","Merging modern restaurants with the atmosphere Budapest's 1960s coffee bars.","http://www.menzaetterem.hu/", R.drawable.eat_menza));
+        places.add(new Place("Nagyi Palacsintázója","The most authentic pancake bars of Budapest established more than 20 years ago.","http://nagyipali.hu/", R.drawable.eat_nagyi_palacsintazoja));
+        places.add(new Place("Café Gerbeaud","Tradition and Innovation.","http://www.gerbeaud.hu/", R.drawable.eat_gerbeaud_cukraszda));
         places.add(new Place("Amber's","French Bakery & Cafe","https://ambers.hu/", R.drawable.eat_ambers));
         places.add(new Place("Fruccola","Nice to sweet you.","http://fruccola.hu/", R.drawable.eat_fruccola));
+
 
         /**
          * Create a PlaceAdapter, whose data source is a list of Places.
@@ -54,7 +58,6 @@ public class EatFragment extends Fragment {
          * so that the ListView will display list items for each word in the list.
          */
         listView.setAdapter(adapter);
-
 
         return rootView;
     }
