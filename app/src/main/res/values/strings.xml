@@ -95,6 +95,7 @@
     <string name="eat_name_fruccola">Fruccola</string>
     <string name="eat_name_book_cafe_lotz_hall">Book Café - Lotz Hall</string>
     <string name="eat_name_new_york_cafe">New York Café</string>
+    <string name="eat_name_kfc">KFC</string>
 
     <!-- Short Description for places for Eat -->
     <string name="eat_sd_comme_chez_soi">A romantic, candlelit dinner in a true small Mediterranean Restaurant!</string>
@@ -112,6 +113,7 @@
     <string name="eat_sd_fruccola">Nice to sweet you.</string>
     <string name="eat_sd_book_cafe_lotz_hall">Opened on March 3, 1911, which was Paris Department Store, Budapest\'s first building.</string>
     <string name="eat_sd_new_york_cafe">Built in eclectic Italian Renaissance-style and opened on October 23rd 1894.</string>
+    <string name="eat_sd_kfc">Do you know that KFC has grown to 16000 restaurants worldwide?</string>
 
     <!-- Website for places for Eat -->
     <string name="eat_web_comme_chez_soi">http://www.commechezsoi.hu/</string>
@@ -129,6 +131,7 @@
     <string name="eat_web_fruccola">http://fruccola.hu/</string>
     <string name="eat_web_book_cafe_lotz_hall">http://www.lotzterem.hu/</string>
     <string name="eat_web_new_york_cafe">http://www.newyorkcafe.hu/</string>
+    <string name="eat_web_kfc">http://kfc.hu/</string>
 
     <!-- Name for places for Shop -->
     <string name="shop_name_terminal_market">Terminal Market</string>

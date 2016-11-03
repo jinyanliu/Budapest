@@ -34,6 +34,7 @@ public class EatFragment extends Fragment {
         places.add(new Place(R.string.eat_name_pastrami, R.string.eat_sd_pastrami, R.string.eat_web_pastrami, R.drawable.eat_pastrami));
         places.add(new Place(R.string.eat_name_paprika_vendeglo, R.string.eat_sd_paprika_vendeglo, R.string.eat_web_paprika_vendeglo, R.drawable.eat_paprika_vendeglo));
         places.add(new Place(R.string.eat_name_menza, R.string.eat_sd_menza, R.string.eat_web_menza, R.drawable.eat_menza));
+        places.add(new Place(R.string.eat_name_kfc, R.string.eat_sd_kfc, R.string.eat_web_kfc, R.drawable.eat_kfc));
         places.add(new Place(R.string.eat_name_nagyi_palacsintazoja, R.string.eat_sd_nagyi_palacsintazoja, R.string.eat_web_nagyi_palacsintazoja, R.drawable.eat_nagyi_palacsintazoja));
         places.add(new Place(R.string.eat_name_cafe_gerbeaud, R.string.eat_sd_cafe_gerbeaud, R.string.eat_web_cafe_gerbeaud, R.drawable.eat_gerbeaud_cukraszda));
         places.add(new Place(R.string.eat_name_ambers, R.string.eat_sd_ambers, R.string.eat_web_ambers, R.drawable.eat_ambers));
