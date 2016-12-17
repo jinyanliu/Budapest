@@ -16,3 +16,6 @@ Followed good practice to keep strings in string layout resource file.
 Images are carefully chosen and edited to 5 different sizes to support different devices. 
 
 They are stored as drawable resources.
+
+# App ScreenShots
+<img src="screenshots/SEE.png" width="24%" alt="See Tab"/> <img src="screenshots/EAT.png" width="24%" alt="Eat Tab"/> <img src="screenshots/SHOP.png" width="24%" alt="Shop Tab"/> <img src="screenshots/PLAY.png" width="24%" alt="Play Tab"/>
