@@ -80,6 +80,7 @@
     <string name="see_web_nepliget">https://en.wikipedia.org/wiki/People\'s_Park_(Budapest)</string>
 
     <!-- Name for places for Eat -->
+    <string name="eat_name_mimoza_etterm">Mimóza étterem</string>
     <string name="eat_name_comme_chez_soi">Comme Chez Soi</string>
     <string name="eat_name_vintage_garden">Vintage Garden</string>
     <string name="eat_name_meat_boutique">Meat Boutique</string>
@@ -98,6 +99,7 @@
     <string name="eat_name_kfc">KFC</string>
 
     <!-- Short Description for places for Eat -->
+    <string name="eat_sd_mimoza_etterm">Chinese Hotpot!</string>
     <string name="eat_sd_comme_chez_soi">A romantic, candlelit dinner in a true small Mediterranean Restaurant!</string>
     <string name="eat_sd_vintage_garden">Hungarian Restaurant</string>
     <string name="eat_sd_meat_boutique">Sitting at the foot of Castle Hill, the Chain Bridge Buda side, with view of the Danube flowing.</string>
@@ -116,6 +118,7 @@
     <string name="eat_sd_kfc">Do you know that KFC has grown to 16000 restaurants worldwide?</string>
 
     <!-- Website for places for Eat -->
+    <string name="eat_web_mimoza_etterm">https://www.facebook.com/pages/Wang-Fu-Mimóza-kínai-étterem/208398989193833?rf=187344814718062</string>
     <string name="eat_web_comme_chez_soi">http://www.commechezsoi.hu/</string>
     <string name="eat_web_vintage_garden">https://www.facebook.com/vintagegardenbudapest/</string>
     <string name="eat_web_meat_boutique">http://meatboutique.hu/</string>

@@ -25,6 +25,7 @@ public class EatFragment extends Fragment {
         //Create an array list of places.
         ArrayList<Place> places = new ArrayList<Place>();
 
+        places.add(new Place(R.string.eat_name_mimoza_etterm, R.string.eat_sd_mimoza_etterm, R.string.eat_web_mimoza_etterm, R.drawable.eat_mimoza_etterm));
         places.add(new Place(R.string.eat_name_vintage_garden, R.string.eat_sd_vintage_garden, R.string.eat_web_vintage_garden, R.drawable.eat_vintage_garden));
         places.add(new Place(R.string.eat_name_meat_boutique, R.string.eat_sd_meat_boutique, R.string.eat_web_meat_boutique, R.drawable.eat_meat_boutique));
         places.add(new Place(R.string.eat_name_comme_chez_soi, R.string.eat_sd_comme_chez_soi, R.string.eat_web_comme_chez_soi, R.drawable.eat_comme_chez_soi));
